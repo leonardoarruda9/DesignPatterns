@@ -1,0 +1,1 @@
+fRJC:\Users\leona\Desktop\DesignPatterns\DesignPatterns\DesignPatterns.csproj¢netcoreapp3.1òCSharp8

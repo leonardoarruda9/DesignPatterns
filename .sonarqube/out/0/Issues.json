@@ -1,0 +1,1447 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
+        "semanticVersion": "4.3.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'GeradorDeXML' to match pascal case naming rules, consider using 'GeradorDeXml'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Adapter/GeradorDeXML.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ICMS' to match pascal case naming rules, consider using 'Icms'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Estrategy/ICMS.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ISS' to match pascal case naming rules, consider using 'Iss'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Estrategy/ISS.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_participantes' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo1/ChatSala.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 51,
+                  "endLine": 10,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'EnviaPorSMS' to match pascal case naming rules, consider using 'EnviaPorSms'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Bridges/EnviaPorSMS.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'nome' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Bridges/MensagemAdministrativa.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'nome' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Bridges/MensagemDoCliente.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Clientes' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/ClienteDAO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 31,
+                  "endLine": 10,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ClienteDAO' to match pascal case naming rules, consider using 'ClienteDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/ClienteDAO.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_handler' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/Mediador.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 33,
+                  "endLine": 10,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'EstadoDeUmOrcamento' to match pascal case naming rules, consider using 'IEstadoDeUmOrcamento'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/EstadoDeUmOrcamento.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 22,
+                  "endLine": 8,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Instancia' a static property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/EmpresaFacadeSingleton.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 30,
+                  "endLine": 11,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ICPP' to match pascal case naming rules, consider using 'Icpp'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/TemplateMethod/ICPP.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'IKCV' to match pascal case naming rules, consider using 'Ikcv'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/TemplateMethod/IKCV.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Estados' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Memento/Historico.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 31,
+                  "endLine": 9,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'AcaoAposGerarNota' to match pascal case naming rules, consider using 'IAcaoAposGerarNota'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Observer/AcaoAposGerarNota.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 22,
+                  "endLine": 8,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'EnviadorDeSMS' to match pascal case naming rules, consider using 'EnviadorDeSms'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Observer/EnviadorDeSMS.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Program.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 11,
+                  "endLine": 10,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'NotaFiscalDAO' to match pascal case naming rules, consider using 'NotaFiscalDao'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Observer/NotaFiscalDAO.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'Desconto' to match pascal case naming rules, consider using 'IDesconto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/ChainOfResponsability/Desconto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 22,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'todasAcoesASeremExecutadas' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Builder/NotaFiscalBuilder.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 42,
+                  "endLine": 21,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'todosItens' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Builder/NotaFiscalBuilder.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 35,
+                  "endLine": 25,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Comandos' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Command/FilaDeTrabalho.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 33,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'pedido' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Command/FinalizaPedido.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'pedido' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Command/PagaPedido.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ImpostoICMS' to match pascal case naming rules, consider using 'ImpostoIcms'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Decorator/ImpostoICMS.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ImpostoISS' to match pascal case naming rules, consider using 'ImpostoIss'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Decorator/ImpostoISS.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GeraXML' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Adapter/GeradorDeXML.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'temItemMaiorQue100Reas' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/TemplateMethod/IKCV.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 22,
+                  "endLine": 18,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Reprovado.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 19,
+                  "endLine": 12,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Reprovado.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 19,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Calcula' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/ChainOfResponsability/CalculadorDeDescontos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Reprovado.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 19,
+                  "endLine": 27,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Finalizado.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Finalizado.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 19,
+                  "endLine": 18,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Finalizado.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 19,
+                  "endLine": 23,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Finalizado.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 19,
+                  "endLine": 28,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/EmAprovacao.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 19,
+                  "endLine": 22,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Aprovado.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 19,
+                  "endLine": 27,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/State/Aprovado.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 19,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'nf'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Observer/DesignPatternsObserver.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 24,
+                  "endLine": 24,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3442",
+          "level": "warning",
+          "message": "Change the visibility of this constructor to 'protected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Decorator/ImpostoAbstract.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 9,
+                  "endLine": 12,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3442",
+          "level": "warning",
+          "message": "Change the visibility of this constructor to 'protected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Decorator/ImpostoAbstract.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 9,
+                  "endLine": 17,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'RealizaCalculo' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Estrategy/CalculadorDeImpostos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 21,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'BuscaCliente' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/EmpresaFacade.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 24,
+                  "endLine": 11,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'CriaFatura' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/EmpresaFacade.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'FazContato' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/EmpresaFacade.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 31,
+                  "endLine": 29,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GeraCobranca' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/FacadesComSingleton/EmpresaFacade.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 25,
+                  "endLine": 21,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'PedeSubstituicao' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/Tecnico.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'EscalaTime' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/Tecnico.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 38,
+                  "endLine": 23,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'LeConnectionString' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Factory/LeitorDeConfiguracao.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3400",
+          "level": "warning",
+          "message": "Remove this method and declare a constant for this value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Factory/LeitorDeConfiguracao.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GetConnection' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Factory/ConnectionFactory.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 30,
+                  "endLine": 11,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Toca' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Flyweight/Piano.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 21,
+                  "endLine": 9,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'JogadorEntraEmCampo' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/SubstituirJogadorCommandHandler.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 38,
+                  "endLine": 32,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Pega' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Flyweight/NotasMusicais.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 22,
+                  "endLine": 19,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'JogadorSaiDeCampo' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/SubstituirJogadorCommandHandler.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 38,
+                  "endLine": 45,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1116",
+          "level": "warning",
+          "message": "Remove this empty statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Interpreter/DesignPatternsInterpreter.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'LevantaPlaca' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/QuartoArbitro.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter '_command' to 'handler' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/leona/Desktop/DesignPatterns/DesignPatterns/Mediator/Exemplo2/Mediador.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 57,
+                  "endLine": 16,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1116": {
+          "id": "S1116",
+          "shortDescription": "Empty statements should be removed",
+          "fullDescription": "Empty statements represented by a semicolon ; are statements that do not perform any operation. They are often the result of a typo or a misunderstanding of the language syntax. It is a good practice to remove empty statements since they don’t add value and lead to confusion and errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General or reserved exceptions should never be thrown",
+          "fullDescription": "This rule raises an issue when a general or reserved exception is thrown.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2325": {
+          "id": "S2325",
+          "shortDescription": "Methods and properties that don't access instance data should be static",
+          "fullDescription": "Methods and properties that don’t access instance data should be marked as static for the following reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2325",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3400": {
+          "id": "S3400",
+          "shortDescription": "Methods should not return constants",
+          "fullDescription": "There’s no point in forcing the overhead of a method call for a method that always returns the same constant value. Even worse, the fact that a method call must be made will likely mislead developers who call the method thinking that something more is done. Declare a constant instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3400",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3442": {
+          "id": "S3442",
+          "shortDescription": "\"abstract\" classes should not have \"public\" constructors",
+          "fullDescription": "The abstract modifier in a class declaration is used to indicate that a class is intended only to be a base class of other classes, not instantiated on its own.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3442",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "Parameters are part of the method signature and its identity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

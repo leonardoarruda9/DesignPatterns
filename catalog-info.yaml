@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: design-patterns-service
+  description: Serviço .NET demonstrando padrões de projeto
+  annotations:
+    sonarqube.org/project-key: leonardoarruda9_DesignPatterns
+    github.com/project-slug: leonardoarruda9/DesignPatterns
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
+

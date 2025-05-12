@@ -1,0 +1,464 @@
+Ñ
+,DesignPatterns.Adapter.DesignPatternsAdapterobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Adapter.DesignPatternsAdapter.MainExemplo()_
+DesignPatternsAdapter()DDesignPatterns.Adapter.DesignPatternsAdapter.DesignPatternsAdapter()ª
+#DesignPatterns.Adapter.GeradorDeXMLobjectF
+GeraXML(object)3DesignPatterns.Adapter.GeradorDeXML.GeraXML(object)D
+GeradorDeXML()2DesignPatterns.Adapter.GeradorDeXML.GeradorDeXML()ı
+-DesignPatterns.Estrategy.CalculadorDeImpostosobject€
+TRealizaCalculo(DesignPatterns.Estrategy.Orcamento, DesignPatterns.Estrategy.Imposto)ÇDesignPatterns.Estrategy.CalculadorDeImpostos.RealizaCalculo(DesignPatterns.Estrategy.Orcamento, DesignPatterns.Estrategy.Imposto)^
+CalculadorDeImpostos()DDesignPatterns.Estrategy.CalculadorDeImpostos.CalculadorDeImpostos()î
+0DesignPatterns.Estrategy.DesignPatternsEstrategyobjectDesignPatterns.IDesignPatternsO
+MainExemplo()>DesignPatterns.Estrategy.DesignPatternsEstrategy.MainExemplo()g
+DesignPatternsEstrategy()JDesignPatterns.Estrategy.DesignPatternsEstrategy.DesignPatternsEstrategy()ñ
+DesignPatterns.Adapter.Clienteobject5
+	Cliente()(DesignPatterns.Adapter.Cliente.Cliente()Q
+Cliente(string, string)6DesignPatterns.Adapter.Cliente.Cliente(string, string)3
+Nome.get'DesignPatterns.Adapter.Cliente.Nome.get3
+Nome.set'DesignPatterns.Adapter.Cliente.Nome.set1
+cpf.get&DesignPatterns.Adapter.Cliente.cpf.get1
+cpf.set&DesignPatterns.Adapter.Cliente.cpf.set;
+Endereco.get+DesignPatterns.Adapter.Cliente.Endereco.get;
+Endereco.set+DesignPatterns.Adapter.Cliente.Endereco.setK
+DataDeNascimento.get3DesignPatterns.Adapter.Cliente.DataDeNascimento.getK
+DataDeNascimento.set3DesignPatterns.Adapter.Cliente.DataDeNascimento.setÛ
+DesignPatterns.Estrategy.ICMSobject DesignPatterns.Estrategy.Impostox
++Calcula(DesignPatterns.Estrategy.Orcamento)IDesignPatterns.Estrategy.ICMS.Calcula(DesignPatterns.Estrategy.Orcamento).
+ICMS()$DesignPatterns.Estrategy.ICMS.ICMS()"
+ DesignPatterns.Estrategy.ImpostoÑ
+,DesignPatterns.Bridges.DesignPatternsBridgesobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Bridges.DesignPatternsBridges.MainExemplo()_
+DesignPatternsBridges()DDesignPatterns.Bridges.DesignPatternsBridges.DesignPatternsBridges()Ó
+DesignPatterns.Estrategy.ISSobject DesignPatterns.Estrategy.Impostow
++Calcula(DesignPatterns.Estrategy.Orcamento)HDesignPatterns.Estrategy.ISS.Calcula(DesignPatterns.Estrategy.Orcamento)+
+ISS()"DesignPatterns.Estrategy.ISS.ISS()∂
+)DesignPatterns.Mediator.Exemplo1.ChatSalaobject2DesignPatterns.Mediator.Exemplo1.IChatSalaMediatorj
+Enviar(string, string, string)HDesignPatterns.Mediator.Exemplo1.ChatSala.Enviar(string, string, string)ú
+7Registro(DesignPatterns.Mediator.Exemplo1.Participante)aDesignPatterns.Mediator.Exemplo1.ChatSala.Registro(DesignPatterns.Mediator.Exemplo1.Participante)B
+
+ChatSala()4DesignPatterns.Mediator.Exemplo1.ChatSala.ChatSala()í
+$DesignPatterns.Bridges.EnviaPorEmailobject DesignPatterns.Bridges.IEnviadorw
+'Envia(DesignPatterns.Bridges.IMensagem)LDesignPatterns.Bridges.EnviaPorEmail.Envia(DesignPatterns.Bridges.IMensagem)G
+EnviaPorEmail()4DesignPatterns.Bridges.EnviaPorEmail.EnviaPorEmail()–
+?DesignPatterns.Mediator.Exemplo1.DesignPatternsMediatorExemplo1objectDesignPatterns.IDesignPatterns^
+MainExemplo()MDesignPatterns.Mediator.Exemplo1.DesignPatternsMediatorExemplo1.MainExemplo()Ñ
+ DesignPatternsMediatorExemplo1()`DesignPatterns.Mediator.Exemplo1.DesignPatternsMediatorExemplo1.DesignPatternsMediatorExemplo1()4
+2DesignPatterns.Mediator.Exemplo1.IChatSalaMediatorà
+"DesignPatterns.Bridges.EnviaPorSMSobject DesignPatterns.Bridges.IEnviadoru
+'Envia(DesignPatterns.Bridges.IMensagem)JDesignPatterns.Bridges.EnviaPorSMS.Envia(DesignPatterns.Bridges.IMensagem)A
+EnviaPorSMS()0DesignPatterns.Bridges.EnviaPorSMS.EnviaPorSMS()"
+ DesignPatterns.Bridges.IEnviador"
+ DesignPatterns.Bridges.IMensagemÜ
+'DesignPatterns.Mediator.Exemplo1.Membro-DesignPatterns.Mediator.Exemplo1.ParticipanteobjectH
+Membro(string)6DesignPatterns.Mediator.Exemplo1.Membro.Membro(string)Z
+Receber(string, string)?DesignPatterns.Mediator.Exemplo1.Membro.Receber(string, string)ï
+*DesignPatterns.Mediator.Exemplo1.NaoMembro-DesignPatterns.Mediator.Exemplo1.ParticipanteobjectQ
+NaoMembro(string)<DesignPatterns.Mediator.Exemplo1.NaoMembro.NaoMembro(string)]
+Receber(string, string)BDesignPatterns.Mediator.Exemplo1.NaoMembro.Receber(string, string)ç
+"DesignPatterns.Estrategy.OrcamentoobjectI
+Orcamento(double)4DesignPatterns.Estrategy.Orcamento.Orcamento(double)ï
+7AdicionaItem(DesignPatterns.ChainOfResponsability.Item)ZDesignPatterns.Estrategy.Orcamento.AdicionaItem(DesignPatterns.ChainOfResponsability.Item)Q
+AplicaDescontoExtra()8DesignPatterns.Estrategy.Orcamento.AplicaDescontoExtra()7
+Aprova()+DesignPatterns.Estrategy.Orcamento.Aprova()9
+	Reprova(),DesignPatterns.Estrategy.Orcamento.Reprova();
+
+Finaliza()-DesignPatterns.Estrategy.Orcamento.Finaliza()E
+EstadoAtual.get2DesignPatterns.Estrategy.Orcamento.EstadoAtual.getE
+EstadoAtual.set2DesignPatterns.Estrategy.Orcamento.EstadoAtual.set9
+	Itens.get,DesignPatterns.Estrategy.Orcamento.Itens.get9
+	Itens.set,DesignPatterns.Estrategy.Orcamento.Itens.set9
+	Valor.get,DesignPatterns.Estrategy.Orcamento.Valor.get9
+	Valor.set,DesignPatterns.Estrategy.Orcamento.Valor.setÈ
+-DesignPatterns.Bridges.MensagemAdministrativaobject DesignPatterns.Bridges.IMensagemn
+MensagemAdministrativa(string)LDesignPatterns.Bridges.MensagemAdministrativa.MensagemAdministrativa(string)@
+Envia()5DesignPatterns.Bridges.MensagemAdministrativa.Envia()D
+	Formata()7DesignPatterns.Bridges.MensagemAdministrativa.Formata()J
+Enviador.get:DesignPatterns.Bridges.MensagemAdministrativa.Enviador.getJ
+Enviador.set:DesignPatterns.Bridges.MensagemAdministrativa.Enviador.setı
+-DesignPatterns.Mediator.Exemplo1.ParticipanteobjectZ
+Participante(string)BDesignPatterns.Mediator.Exemplo1.Participante.Participante(string)^
+Enviar(string, string)DDesignPatterns.Mediator.Exemplo1.Participante.Enviar(string, string)`
+Receber(string, string)EDesignPatterns.Mediator.Exemplo1.Participante.Receber(string, string)J
+ChatSala.get:DesignPatterns.Mediator.Exemplo1.Participante.ChatSala.getJ
+ChatSala.set:DesignPatterns.Mediator.Exemplo1.Participante.ChatSala.setB
+Nome.get6DesignPatterns.Mediator.Exemplo1.Participante.Nome.getB
+Nome.set6DesignPatterns.Mediator.Exemplo1.Participante.Nome.set–
+?DesignPatterns.Mediator.Exemplo2.DesignPatternsMediatorExemplo2objectDesignPatterns.IDesignPatterns^
+MainExemplo()MDesignPatterns.Mediator.Exemplo2.DesignPatternsMediatorExemplo2.MainExemplo()Ñ
+ DesignPatternsMediatorExemplo2()`DesignPatterns.Mediator.Exemplo2.DesignPatternsMediatorExemplo2.DesignPatternsMediatorExemplo2()¡
+(DesignPatterns.Bridges.MensagemDoClienteobject DesignPatterns.Bridges.IMensagem_
+MensagemDoCliente(string)BDesignPatterns.Bridges.MensagemDoCliente.MensagemDoCliente(string);
+Envia()0DesignPatterns.Bridges.MensagemDoCliente.Envia()?
+	Formata()2DesignPatterns.Bridges.MensagemDoCliente.Formata()E
+Enviador.get5DesignPatterns.Bridges.MensagemDoCliente.Enviador.getE
+Enviador.set5DesignPatterns.Bridges.MensagemDoCliente.Enviador.set,
+*DesignPatterns.Mediator.Exemplo2.IMediator2
+0DesignPatterns.Mediator.Exemplo2.IRequestHandlerπ
+!DesignPatterns.Facades.ClienteDAOobject>
+ClienteDAO().DesignPatterns.Facades.ClienteDAO.ClienteDAO()L
+BuscaPorCPF(string)5DesignPatterns.Facades.ClienteDAO.BuscaPorCPF(string)ª
+(DesignPatterns.Mediator.Exemplo2.Jogadorobjecta
+Jogador(string, int, bool)CDesignPatterns.Mediator.Exemplo2.Jogador.Jogador(string, int, bool)E
+SaiDeCampo()5DesignPatterns.Mediator.Exemplo2.Jogador.SaiDeCampo()I
+EntraEmCampo()7DesignPatterns.Mediator.Exemplo2.Jogador.EntraEmCampo()9
+ID.get/DesignPatterns.Mediator.Exemplo2.Jogador.ID.get9
+ID.set/DesignPatterns.Mediator.Exemplo2.Jogador.ID.set=
+Nome.get1DesignPatterns.Mediator.Exemplo2.Jogador.Nome.get=
+Nome.set1DesignPatterns.Mediator.Exemplo2.Jogador.Nome.setA
+
+Numero.get3DesignPatterns.Mediator.Exemplo2.Jogador.Numero.getA
+
+Numero.set3DesignPatterns.Mediator.Exemplo2.Jogador.Numero.setK
+EstaEmCampo.get8DesignPatterns.Mediator.Exemplo2.Jogador.EstaEmCampo.getK
+EstaEmCampo.set8DesignPatterns.Mediator.Exemplo2.Jogador.EstaEmCampo.set¸
+DesignPatterns.Facades.Cobrancaobjectº
+LCobranca(DesignPatterns.Facades.TipoCobranca, DesignPatterns.Facades.Fatura)lDesignPatterns.Facades.Cobranca.Cobranca(DesignPatterns.Facades.TipoCobranca, DesignPatterns.Facades.Fatura)2
+Emite()'DesignPatterns.Facades.Cobranca.Emite()4
+Tipo.get(DesignPatterns.Facades.Cobranca.Tipo.get4
+Tipo.set(DesignPatterns.Facades.Cobranca.Tipo.set8
+
+Fatura.get*DesignPatterns.Facades.Cobranca.Fatura.get8
+
+Fatura.set*DesignPatterns.Facades.Cobranca.Fatura.set≥
+)DesignPatterns.Mediator.Exemplo2.Mediadorobject*DesignPatterns.Mediator.Exemplo2.IMediator¢
+:Mediador(DesignPatterns.Mediator.Exemplo2.IRequestHandler)dDesignPatterns.Mediator.Exemplo2.Mediador.Mediador(DesignPatterns.Mediator.Exemplo2.IRequestHandler)¨
+?Send(DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand)iDesignPatterns.Mediator.Exemplo2.Mediador.Send(DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand)ƒ
+%DesignPatterns.Facades.ContatoClienteobject»
+OContatoCliente(DesignPatterns.Adapter.Cliente, DesignPatterns.Facades.Cobranca)uDesignPatterns.Facades.ContatoCliente.ContatoCliente(DesignPatterns.Adapter.Cliente, DesignPatterns.Facades.Cobranca)<
+	Dispara()/DesignPatterns.Facades.ContatoCliente.Dispara()@
+Cliente.get1DesignPatterns.Facades.ContatoCliente.Cliente.get@
+Cliente.set1DesignPatterns.Facades.ContatoCliente.Cliente.setB
+Cobranca.get2DesignPatterns.Facades.ContatoCliente.Cobranca.getB
+Cobranca.set2DesignPatterns.Facades.ContatoCliente.Cobranca.set¯
+DesignPatterns.EmAprovacaoobject"DesignPatterns.EstadoDeUmOrcamentoç
+7AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)RDesignPatterns.EmAprovacao.AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)s
+*Aprova(DesignPatterns.Estrategy.Orcamento)EDesignPatterns.EmAprovacao.Aprova(DesignPatterns.Estrategy.Orcamento)w
+,Finaliza(DesignPatterns.Estrategy.Orcamento)GDesignPatterns.EmAprovacao.Finaliza(DesignPatterns.Estrategy.Orcamento)u
++Reprova(DesignPatterns.Estrategy.Orcamento)FDesignPatterns.EmAprovacao.Reprova(DesignPatterns.Estrategy.Orcamento)9
+EmAprovacao()(DesignPatterns.EmAprovacao.EmAprovacao()Ñ
+.DesignPatterns.Mediator.Exemplo2.QuartoArbitroobject]
+QuartoArbitro(string)DDesignPatterns.Mediator.Exemplo2.QuartoArbitro.QuartoArbitro(string)_
+LevantaPlaca(int, int)EDesignPatterns.Mediator.Exemplo2.QuartoArbitro.LevantaPlaca(int, int)?
+ID.get5DesignPatterns.Mediator.Exemplo2.QuartoArbitro.ID.get?
+ID.set5DesignPatterns.Mediator.Exemplo2.QuartoArbitro.ID.setC
+Nome.get7DesignPatterns.Mediator.Exemplo2.QuartoArbitro.Nome.getC
+Nome.set7DesignPatterns.Mediator.Exemplo2.QuartoArbitro.Nome.set$
+"DesignPatterns.EstadoDeUmOrcamentoˇ
++DesignPatterns.Facades.DesignPatternsFacadeobjectDesignPatterns.IDesignPatternsJ
+MainExemplo()9DesignPatterns.Facades.DesignPatternsFacade.MainExemplo()\
+DesignPatternsFacade()BDesignPatterns.Facades.DesignPatternsFacade.DesignPatternsFacade()í
+
+9DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandobjectÃ
+∆SubstituirJogadorCommand(DesignPatterns.Mediator.Exemplo2.Tecnico, DesignPatterns.Mediator.Exemplo2.Jogador, DesignPatterns.Mediator.Exemplo2.Jogador, DesignPatterns.Mediator.Exemplo2.QuartoArbitro)ÄDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.SubstituirJogadorCommand(DesignPatterns.Mediator.Exemplo2.Tecnico, DesignPatterns.Mediator.Exemplo2.Jogador, DesignPatterns.Mediator.Exemplo2.Jogador, DesignPatterns.Mediator.Exemplo2.QuartoArbitro)T
+Tecnico.getEDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.Tecnico.getT
+Tecnico.setEDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.Tecnico.setb
+JogadorEmCampo.getLDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.JogadorEmCampo.getb
+JogadorEmCampo.setLDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.JogadorEmCampo.setb
+JogadorNoBanco.getLDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.JogadorNoBanco.getb
+JogadorNoBanco.setLDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.JogadorNoBanco.set`
+QuartoArbitro.getKDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.QuartoArbitro.get`
+QuartoArbitro.setKDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand.QuartoArbitro.set
+DesignPatterns.Finalizadoobject"DesignPatterns.EstadoDeUmOrcamentoå
+7AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)QDesignPatterns.Finalizado.AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)r
+*Aprova(DesignPatterns.Estrategy.Orcamento)DDesignPatterns.Finalizado.Aprova(DesignPatterns.Estrategy.Orcamento)v
+,Finaliza(DesignPatterns.Estrategy.Orcamento)FDesignPatterns.Finalizado.Finaliza(DesignPatterns.Estrategy.Orcamento)t
++Reprova(DesignPatterns.Estrategy.Orcamento)EDesignPatterns.Finalizado.Reprova(DesignPatterns.Estrategy.Orcamento)6
+Finalizado()&DesignPatterns.Finalizado.Finalizado()Ë
+$DesignPatterns.Facades.EmpresaFacadeobjectQ
+BuscaCliente(string)9DesignPatterns.Facades.EmpresaFacade.BuscaCliente(string)ç
+2CriaFatura(DesignPatterns.Adapter.Cliente, double)WDesignPatterns.Facades.EmpresaFacade.CriaFatura(DesignPatterns.Adapter.Cliente, double)…
+PGeraCobranca(DesignPatterns.Facades.TipoCobranca, DesignPatterns.Facades.Fatura)uDesignPatterns.Facades.EmpresaFacade.GeraCobranca(DesignPatterns.Facades.TipoCobranca, DesignPatterns.Facades.Fatura)ø
+KFazContato(DesignPatterns.Adapter.Cliente, DesignPatterns.Facades.Cobranca)pDesignPatterns.Facades.EmpresaFacade.FazContato(DesignPatterns.Adapter.Cliente, DesignPatterns.Facades.Cobranca)G
+EmpresaFacade()4DesignPatterns.Facades.EmpresaFacade.EmpresaFacade()∑
+-DesignPatterns.Facades.EmpresaFacadeSingletonobjectb
+EmpresaFacadeSingleton()FDesignPatterns.Facades.EmpresaFacadeSingleton.EmpresaFacadeSingleton()L
+Instancia.get;DesignPatterns.Facades.EmpresaFacadeSingleton.Instancia.getL
+Instancia.set;DesignPatterns.Facades.EmpresaFacadeSingleton.Instancia.setË
+DesignPatterns.Reprovadoobject"DesignPatterns.EstadoDeUmOrcamentoã
+7AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)PDesignPatterns.Reprovado.AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)q
+*Aprova(DesignPatterns.Estrategy.Orcamento)CDesignPatterns.Reprovado.Aprova(DesignPatterns.Estrategy.Orcamento)u
+,Finaliza(DesignPatterns.Estrategy.Orcamento)EDesignPatterns.Reprovado.Finaliza(DesignPatterns.Estrategy.Orcamento)s
++Reprova(DesignPatterns.Estrategy.Orcamento)DDesignPatterns.Reprovado.Reprova(DesignPatterns.Estrategy.Orcamento)3
+Reprovado()$DesignPatterns.Reprovado.Reprovado()¿
+
+@DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandlerobject0DesignPatterns.Mediator.Exemplo2.IRequestHandler»
+AHandle(DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand)ÇDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandler.Handle(DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommand)™
+rSubstituiJogador(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string, string)≥DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandler.SubstituiJogador(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string, string)†
+mJogadorEntraEmCampo(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string)ÆDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandler.JogadorEntraEmCampo(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string)ú
+kJogadorSaiDeCampo(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string)¨DesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandler.JogadorSaiDeCampo(System.Collections.Generic.IEnumerable<DesignPatterns.Mediator.Exemplo2.Jogador>, string)á
+!SubstituirJogadorCommandHandler()bDesignPatterns.Mediator.Exemplo2.SubstituirJogadorCommandHandler.SubstituirJogadorCommandHandler()º
+:DesignPatterns.TemplateMethod.DesignPatternsTemplateMethodobjectDesignPatterns.IDesignPatternsY
+MainExemplo()HDesignPatterns.TemplateMethod.DesignPatternsTemplateMethod.MainExemplo(){
+DesignPatternsTemplateMethod()YDesignPatterns.TemplateMethod.DesignPatternsTemplateMethod.DesignPatternsTemplateMethod()á
+DesignPatterns.Facades.Faturaobject~
+.Fatura(DesignPatterns.Adapter.Cliente, double)LDesignPatterns.Facades.Fatura.Fatura(DesignPatterns.Adapter.Cliente, double)8
+Cliente.get)DesignPatterns.Facades.Fatura.Cliente.get8
+Cliente.set)DesignPatterns.Facades.Fatura.Cliente.set4
+	Valor.get'DesignPatterns.Facades.Fatura.Valor.get4
+	Valor.set'DesignPatterns.Facades.Fatura.Valor.setß
+(DesignPatterns.Mediator.Exemplo2.TecnicoobjectK
+Tecnico(string)8DesignPatterns.Mediator.Exemplo2.Tecnico.Tecnico(string)m
+ PedeSubstituicao(string, string)IDesignPatterns.Mediator.Exemplo2.Tecnico.PedeSubstituicao(string, string)E
+EscalaTime()5DesignPatterns.Mediator.Exemplo2.Tecnico.EscalaTime()9
+ID.get/DesignPatterns.Mediator.Exemplo2.Tecnico.ID.get9
+ID.set/DesignPatterns.Mediator.Exemplo2.Tecnico.ID.set=
+Nome.get1DesignPatterns.Mediator.Exemplo2.Tecnico.Nome.get=
+Nome.set1DesignPatterns.Mediator.Exemplo2.Tecnico.Nome.set=
+Time.get1DesignPatterns.Mediator.Exemplo2.Tecnico.Time.get=
+Time.set1DesignPatterns.Mediator.Exemplo2.Tecnico.Time.setí
+#DesignPatterns.Facades.TipoCobrancaSystem.EnumSystem.ValueTypeobjectD
+TipoCobranca()2DesignPatterns.Facades.TipoCobranca.TipoCobranca()¢
+DesignPatterns.Memento.Contratoobject∞
+FContrato(System.DateTime, string, DesignPatterns.Memento.TipoContrato)fDesignPatterns.Memento.Contrato.Contrato(System.DateTime, string, DesignPatterns.Memento.TipoContrato)4
+Avanca()(DesignPatterns.Memento.Contrato.Avanca()>
+SalvaEstado()-DesignPatterns.Memento.Contrato.SalvaEstado()4
+Data.get(DesignPatterns.Memento.Contrato.Data.get4
+Data.set(DesignPatterns.Memento.Contrato.Data.set:
+Cliente.get+DesignPatterns.Memento.Contrato.Cliente.get:
+Cliente.set+DesignPatterns.Memento.Contrato.Cliente.set4
+Tipo.get(DesignPatterns.Memento.Contrato.Tipo.get4
+Tipo.set(DesignPatterns.Memento.Contrato.Tipo.set—
+"DesignPatterns.TemplateMethod.ICPP:DesignPatterns.TemplateMethod.TemplateDeImpostoCondicionalobjectô
+9DeveUsarMaximaTaxacao(DesignPatterns.Estrategy.Orcamento)\DesignPatterns.TemplateMethod.ICPP.DeveUsarMaximaTaxacao(DesignPatterns.Estrategy.Orcamento)â
+1MaximaTaxacao(DesignPatterns.Estrategy.Orcamento)TDesignPatterns.TemplateMethod.ICPP.MaximaTaxacao(DesignPatterns.Estrategy.Orcamento)â
+1MinimaTaxacao(DesignPatterns.Estrategy.Orcamento)TDesignPatterns.TemplateMethod.ICPP.MinimaTaxacao(DesignPatterns.Estrategy.Orcamento)3
+ICPP())DesignPatterns.TemplateMethod.ICPP.ICPP()‘
+(DesignPatterns.Factory.ConnectionFactoryobjectK
+GetConnection()8DesignPatterns.Factory.ConnectionFactory.GetConnection()S
+ConnectionFactory()<DesignPatterns.Factory.ConnectionFactory.ConnectionFactory()Ñ
+,DesignPatterns.Memento.DesignPatternsMementoobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Memento.DesignPatternsMemento.MainExemplo()_
+DesignPatternsMemento()DDesignPatterns.Memento.DesignPatternsMemento.DesignPatternsMemento()Ñ
+,DesignPatterns.Factory.DesignPatternsFactoryobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Factory.DesignPatternsFactory.MainExemplo()_
+DesignPatternsFactory()DDesignPatterns.Factory.DesignPatternsFactory.DesignPatternsFactory()Ì
++DesignPatterns.Factory.LeitorDeConfiguracaoobjectX
+LeConnectionString()@DesignPatterns.Factory.LeitorDeConfiguracao.LeConnectionString()\
+LeitorDeConfiguracao()BDesignPatterns.Factory.LeitorDeConfiguracao.LeitorDeConfiguracao()ë
+DesignPatterns.Memento.Estadoobjectp
+'Estado(DesignPatterns.Memento.Contrato)EDesignPatterns.Memento.Estado.Estado(DesignPatterns.Memento.Contrato):
+Contrato.get*DesignPatterns.Memento.Estado.Contrato.get:
+Contrato.set*DesignPatterns.Memento.Estado.Contrato.setÔ
+"DesignPatterns.TemplateMethod.IKCV:DesignPatterns.TemplateMethod.TemplateDeImpostoCondicionalobjectô
+9DeveUsarMaximaTaxacao(DesignPatterns.Estrategy.Orcamento)\DesignPatterns.TemplateMethod.IKCV.DeveUsarMaximaTaxacao(DesignPatterns.Estrategy.Orcamento)â
+1MaximaTaxacao(DesignPatterns.Estrategy.Orcamento)TDesignPatterns.TemplateMethod.IKCV.MaximaTaxacao(DesignPatterns.Estrategy.Orcamento)â
+1MinimaTaxacao(DesignPatterns.Estrategy.Orcamento)TDesignPatterns.TemplateMethod.IKCV.MinimaTaxacao(DesignPatterns.Estrategy.Orcamento)õ
+:temItemMaiorQue100Reas(DesignPatterns.Estrategy.Orcamento)]DesignPatterns.TemplateMethod.IKCV.temItemMaiorQue100Reas(DesignPatterns.Estrategy.Orcamento)3
+IKCV())DesignPatterns.TemplateMethod.IKCV.IKCV()î
+0DesignPatterns.Flyweight.DesignPatternsFlyweightobjectDesignPatterns.IDesignPatternsO
+MainExemplo()>DesignPatterns.Flyweight.DesignPatternsFlyweight.MainExemplo()g
+DesignPatternsFlyweight()JDesignPatterns.Flyweight.DesignPatternsFlyweight.DesignPatternsFlyweight()˚
+:DesignPatterns.TemplateMethod.TemplateDeImpostoCondicionalobject DesignPatterns.Estrategy.Impostoï
++Calcula(DesignPatterns.Estrategy.Orcamento)fDesignPatterns.TemplateMethod.TemplateDeImpostoCondicional.Calcula(DesignPatterns.Estrategy.Orcamento){
+TemplateDeImpostoCondicional()YDesignPatterns.TemplateMethod.TemplateDeImpostoCondicional.TemplateDeImpostoCondicional()ï
+ DesignPatterns.Memento.Historicoobjects
+'Adiciona(DesignPatterns.Memento.Estado)HDesignPatterns.Memento.Historico.Adiciona(DesignPatterns.Memento.Estado)7
+	Pega(int)*DesignPatterns.Memento.Historico.Pega(int);
+Historico(),DesignPatterns.Memento.Historico.Historico()í
+#DesignPatterns.Memento.TipoContratoSystem.EnumSystem.ValueTypeobjectD
+TipoContrato()2DesignPatterns.Memento.TipoContrato.TipoContrato()Î
+DesignPatterns.Flyweight.DoobjectDesignPatterns.Flyweight.INota(
+Do() DesignPatterns.Flyweight.Do.Do()<
+Frequencia.get*DesignPatterns.Flyweight.Do.Frequencia.get<
+Frequencia.set*DesignPatterns.Flyweight.Do.Frequencia.setÎ
+DesignPatterns.Flyweight.FaobjectDesignPatterns.Flyweight.INota(
+Fa() DesignPatterns.Flyweight.Fa.Fa()<
+Frequencia.get*DesignPatterns.Flyweight.Fa.Frequencia.get<
+Frequencia.set*DesignPatterns.Flyweight.Fa.Frequencia.setÑ
+,DesignPatterns.Visitor.DesignPatternsVisitorobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Visitor.DesignPatternsVisitor.MainExemplo()_
+DesignPatternsVisitor()DDesignPatterns.Visitor.DesignPatternsVisitor.DesignPatternsVisitor()+
+)DesignPatterns.Observer.AcaoAposGerarNota 
+DesignPatterns.Flyweight.INotaå
+.DesignPatterns.Observer.DesignPatternsObserverobjectDesignPatterns.IDesignPatternsM
+MainExemplo()<DesignPatterns.Observer.DesignPatternsObserver.MainExemplo()c
+DesignPatternsObserver()GDesignPatterns.Observer.DesignPatternsObserver.DesignPatternsObserver()Ø
+'DesignPatterns.Observer.EnviadorDeEmailobject)DesignPatterns.Observer.AcaoAposGerarNotaÄ
+*Executa(DesignPatterns.Builder.NotaFiscal)RDesignPatterns.Observer.EnviadorDeEmail.Executa(DesignPatterns.Builder.NotaFiscal)N
+EnviadorDeEmail()9DesignPatterns.Observer.EnviadorDeEmail.EnviadorDeEmail()§
+%DesignPatterns.Observer.EnviadorDeSMSobject)DesignPatterns.Observer.AcaoAposGerarNota~
+*Executa(DesignPatterns.Builder.NotaFiscal)PDesignPatterns.Observer.EnviadorDeSMS.Executa(DesignPatterns.Builder.NotaFiscal)H
+EnviadorDeSMS()5DesignPatterns.Observer.EnviadorDeSMS.EnviadorDeSMS()§
+%DesignPatterns.Observer.NotaFiscalDAOobject)DesignPatterns.Observer.AcaoAposGerarNota~
+*Executa(DesignPatterns.Builder.NotaFiscal)PDesignPatterns.Observer.NotaFiscalDAO.Executa(DesignPatterns.Builder.NotaFiscal)H
+NotaFiscalDAO()5DesignPatterns.Observer.NotaFiscalDAO.NotaFiscalDAO()O
+DesignPatterns.Programobject-
+	Program() DesignPatterns.Program.Program()‹
+(DesignPatterns.Visitor.ImpressoraVisitorobjectDesignPatterns.Visitor.IVisitorÖ
+,ImprimeSoma(DesignPatterns.Interpreter.Soma)UDesignPatterns.Visitor.ImpressoraVisitor.ImprimeSoma(DesignPatterns.Interpreter.Soma)ô
+6ImprimeSubtracao(DesignPatterns.Interpreter.Subtracao)_DesignPatterns.Visitor.ImpressoraVisitor.ImprimeSubtracao(DesignPatterns.Interpreter.Subtracao)ç
+0ImprimeNumero(DesignPatterns.Interpreter.Numero)YDesignPatterns.Visitor.ImpressoraVisitor.ImprimeNumero(DesignPatterns.Interpreter.Numero)S
+ImpressoraVisitor()<DesignPatterns.Visitor.ImpressoraVisitor.ImpressoraVisitor()!
+DesignPatterns.Visitor.IVisitorÎ
+DesignPatterns.Flyweight.MiobjectDesignPatterns.Flyweight.INota(
+Mi() DesignPatterns.Flyweight.Mi.Mi()<
+Frequencia.get*DesignPatterns.Flyweight.Mi.Frequencia.get<
+Frequencia.set*DesignPatterns.Flyweight.Mi.Frequencia.set‡
+DesignPatterns.Aprovadoobject"DesignPatterns.EstadoDeUmOrcamentoä
+7AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)ODesignPatterns.Aprovado.AplicaDescontoExtra(DesignPatterns.Estrategy.Orcamento)p
+*Aprova(DesignPatterns.Estrategy.Orcamento)BDesignPatterns.Aprovado.Aprova(DesignPatterns.Estrategy.Orcamento)t
+,Finaliza(DesignPatterns.Estrategy.Orcamento)DDesignPatterns.Aprovado.Finaliza(DesignPatterns.Estrategy.Orcamento)r
++Reprova(DesignPatterns.Estrategy.Orcamento)CDesignPatterns.Aprovado.Reprova(DesignPatterns.Estrategy.Orcamento)0
+
+Aprovado()"DesignPatterns.Aprovado.Aprovado()À
+:DesignPatterns.ChainOfResponsability.CalculadorDeDescontosobjectï
++Calcula(DesignPatterns.Estrategy.Orcamento)fDesignPatterns.ChainOfResponsability.CalculadorDeDescontos.Calcula(DesignPatterns.Estrategy.Orcamento)m
+CalculadorDeDescontos()RDesignPatterns.ChainOfResponsability.CalculadorDeDescontos.CalculadorDeDescontos()Ù
+(DesignPatterns.State.DesignPatternsStateobjectDesignPatterns.IDesignPatternsG
+MainExemplo()6DesignPatterns.State.DesignPatternsState.MainExemplo()W
+DesignPatternsState()>DesignPatterns.State.DesignPatternsState.DesignPatternsState()/
+-DesignPatterns.ChainOfResponsability.Desconto¿
+&DesignPatterns.Flyweight.NotasMusicaisobjectC
+Pega(string)3DesignPatterns.Flyweight.NotasMusicais.Pega(string)I
+NotasMusicais()6DesignPatterns.Flyweight.NotasMusicais.NotasMusicais()ç
+DesignPatterns.Flyweight.PianoobjectØ
+FToca(System.Collections.Generic.IList<DesignPatterns.Flyweight.INota>)eDesignPatterns.Flyweight.Piano.Toca(System.Collections.Generic.IList<DesignPatterns.Flyweight.INota>)1
+Piano()&DesignPatterns.Flyweight.Piano.Piano()Î
+DesignPatterns.Flyweight.ReobjectDesignPatterns.Flyweight.INota(
+Re() DesignPatterns.Flyweight.Re.Re()<
+Frequencia.get*DesignPatterns.Flyweight.Re.Frequencia.get<
+Frequencia.set*DesignPatterns.Flyweight.Re.Frequencia.setÑ
+,DesignPatterns.Builder.DesignPatternsBuilderobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Builder.DesignPatternsBuilder.MainExemplo()_
+DesignPatternsBuilder()DDesignPatterns.Builder.DesignPatternsBuilder.DesignPatternsBuilder()é
+6DesignPatterns.ChainOfResponsability.DescontoPor5Itensobject-DesignPatterns.ChainOfResponsability.Descontoì
+,Desconta(DesignPatterns.Estrategy.Orcamento)cDesignPatterns.ChainOfResponsability.DescontoPor5Itens.Desconta(DesignPatterns.Estrategy.Orcamento)a
+DescontoPor5Itens()JDesignPatterns.ChainOfResponsability.DescontoPor5Itens.DescontoPor5Itens()Q
+Proximo.getBDesignPatterns.ChainOfResponsability.DescontoPor5Itens.Proximo.getQ
+Proximo.setBDesignPatterns.ChainOfResponsability.DescontoPor5Itens.Proximo.setÎ
+!DesignPatterns.Builder.ItemDaNotaobjectZ
+ItemDaNota(string, double)<DesignPatterns.Builder.ItemDaNota.ItemDaNota(string, double)6
+Nome.get*DesignPatterns.Builder.ItemDaNota.Nome.get6
+Nome.set*DesignPatterns.Builder.ItemDaNota.Nome.set8
+	Valor.get+DesignPatterns.Builder.ItemDaNota.Valor.get8
+	Valor.set+DesignPatterns.Builder.ItemDaNota.Valor.setˆ	
+!DesignPatterns.Builder.NotaFiscalobject∏
+àNotaFiscal(string, string, System.DateTime, double, double, System.Collections.Generic.IList<DesignPatterns.Builder.ItemDaNota>, string)™DesignPatterns.Builder.NotaFiscal.NotaFiscal(string, string, System.DateTime, double, double, System.Collections.Generic.IList<DesignPatterns.Builder.ItemDaNota>, string)D
+RazaoSocial.get1DesignPatterns.Builder.NotaFiscal.RazaoSocial.getD
+RazaoSocial.set1DesignPatterns.Builder.NotaFiscal.RazaoSocial.set6
+cnpj.get*DesignPatterns.Builder.NotaFiscal.cnpj.get6
+cnpj.set*DesignPatterns.Builder.NotaFiscal.cnpj.setD
+DataEmissao.get1DesignPatterns.Builder.NotaFiscal.DataEmissao.getD
+DataEmissao.set1DesignPatterns.Builder.NotaFiscal.DataEmissao.setB
+ValorBruto.get0DesignPatterns.Builder.NotaFiscal.ValorBruto.getB
+ValorBruto.set0DesignPatterns.Builder.NotaFiscal.ValorBruto.set>
+Impostos.get.DesignPatterns.Builder.NotaFiscal.Impostos.get>
+Impostos.set.DesignPatterns.Builder.NotaFiscal.Impostos.set8
+	Itens.get+DesignPatterns.Builder.NotaFiscal.Itens.get8
+	Itens.set+DesignPatterns.Builder.NotaFiscal.Itens.setD
+Observacoes.get1DesignPatterns.Builder.NotaFiscal.Observacoes.getD
+Observacoes.set1DesignPatterns.Builder.NotaFiscal.Observacoes.set∆
+>DesignPatterns.ChainOfResponsability.DescontoPorMaisDe500Reaisobject-DesignPatterns.ChainOfResponsability.Descontoõ
+,Desconta(DesignPatterns.Estrategy.Orcamento)kDesignPatterns.ChainOfResponsability.DescontoPorMaisDe500Reais.Desconta(DesignPatterns.Estrategy.Orcamento)y
+DescontoPorMaisDe500Reais()ZDesignPatterns.ChainOfResponsability.DescontoPorMaisDe500Reais.DescontoPorMaisDe500Reais()Y
+Proximo.getJDesignPatterns.ChainOfResponsability.DescontoPorMaisDe500Reais.Proximo.getY
+Proximo.setJDesignPatterns.ChainOfResponsability.DescontoPorMaisDe500Reais.Proximo.setı
+HDesignPatterns.ChainOfResponsability.DesignPatternsChainOfResponsabilityobjectDesignPatterns.IDesignPatternsg
+MainExemplo()VDesignPatterns.ChainOfResponsability.DesignPatternsChainOfResponsability.MainExemplo()ó
+%DesignPatternsChainOfResponsability()nDesignPatterns.ChainOfResponsability.DesignPatternsChainOfResponsability.DesignPatternsChainOfResponsability()è
+)DesignPatterns.ChainOfResponsability.ItemobjectV
+Item(string, double)>DesignPatterns.ChainOfResponsability.Item.Item(string, double)>
+Nome.get2DesignPatterns.ChainOfResponsability.Item.Nome.get>
+Nome.set2DesignPatterns.ChainOfResponsability.Item.Nome.set@
+	Valor.get3DesignPatterns.ChainOfResponsability.Item.Valor.get@
+	Valor.set3DesignPatterns.ChainOfResponsability.Item.Valor.set‰
+0DesignPatterns.ChainOfResponsability.SemDescontoobject-DesignPatterns.ChainOfResponsability.Descontoç
+,Desconta(DesignPatterns.Estrategy.Orcamento)]DesignPatterns.ChainOfResponsability.SemDesconto.Desconta(DesignPatterns.Estrategy.Orcamento)O
+SemDesconto()>DesignPatterns.ChainOfResponsability.SemDesconto.SemDesconto()K
+Proximo.get<DesignPatterns.ChainOfResponsability.SemDesconto.Proximo.getK
+Proximo.set<DesignPatterns.ChainOfResponsability.SemDesconto.Proximo.set 
+DesignPatterns.IDesignPatternsÑ
+,DesignPatterns.Command.DesignPatternsCommandobjectDesignPatterns.IDesignPatternsK
+MainExemplo():DesignPatterns.Command.DesignPatternsCommand.MainExemplo()_
+DesignPatternsCommand()DDesignPatterns.Command.DesignPatternsCommand.DesignPatternsCommand()§
+4DesignPatterns.Interpreter.DesignPatternsInterpreterobjectDesignPatterns.IDesignPatternsS
+MainExemplo()BDesignPatterns.Interpreter.DesignPatternsInterpreter.MainExemplo()o
+DesignPatternsInterpreter()PDesignPatterns.Interpreter.DesignPatternsInterpreter.DesignPatternsInterpreter()ﬁ
+
+(DesignPatterns.Builder.NotaFiscalBuilderobjectS
+ParaEmpresa(string)<DesignPatterns.Builder.NotaFiscalBuilder.ParaEmpresa(string)õ
+7AdicionaAcao(DesignPatterns.Observer.AcaoAposGerarNota)`DesignPatterns.Builder.NotaFiscalBuilder.AdicionaAcao(DesignPatterns.Observer.AcaoAposGerarNota)Y
+ComObservacoes(string)?DesignPatterns.Builder.NotaFiscalBuilder.ComObservacoes(string)G
+NaDataAtual()6DesignPatterns.Builder.NotaFiscalBuilder.NaDataAtual()K
+ComCnpj(string)8DesignPatterns.Builder.NotaFiscalBuilder.ComCnpj(string)Å
+*ComItem(DesignPatterns.Builder.ItemDaNota)SDesignPatterns.Builder.NotaFiscalBuilder.ComItem(DesignPatterns.Builder.ItemDaNota)A
+
+Constroi()3DesignPatterns.Builder.NotaFiscalBuilder.Constroi()S
+NotaFiscalBuilder()<DesignPatterns.Builder.NotaFiscalBuilder.NotaFiscalBuilder()I
+RazaoSoial.get7DesignPatterns.Builder.NotaFiscalBuilder.RazaoSoial.getI
+RazaoSoial.set7DesignPatterns.Builder.NotaFiscalBuilder.RazaoSoial.set=
+Cnpj.get1DesignPatterns.Builder.NotaFiscalBuilder.Cnpj.get=
+Cnpj.set1DesignPatterns.Builder.NotaFiscalBuilder.Cnpj.setK
+Observacoes.get8DesignPatterns.Builder.NotaFiscalBuilder.Observacoes.getK
+Observacoes.set8DesignPatterns.Builder.NotaFiscalBuilder.Observacoes.set=
+Data.get1DesignPatterns.Builder.NotaFiscalBuilder.Data.get=
+Data.set1DesignPatterns.Builder.NotaFiscalBuilder.Data.setπ
+%DesignPatterns.Command.FilaDeTrabalhoobject|
+)Adiciona(DesignPatterns.Command.ICommand)ODesignPatterns.Command.FilaDeTrabalho.Adiciona(DesignPatterns.Command.ICommand)>
+
+Processa()0DesignPatterns.Command.FilaDeTrabalho.Processa()J
+FilaDeTrabalho()6DesignPatterns.Command.FilaDeTrabalho.FilaDeTrabalho()'
+%DesignPatterns.Interpreter.IExpressao≤
+!DesignPatterns.Interpreter.Numeroobject%DesignPatterns.Interpreter.IExpressao<
+Numero(int)-DesignPatterns.Interpreter.Numero.Numero(int)6
+Avalia()*DesignPatterns.Interpreter.Numero.Avalia()t
+'Aceita(DesignPatterns.Visitor.IVisitor)IDesignPatterns.Interpreter.Numero.Aceita(DesignPatterns.Visitor.IVisitor)8
+	Valor.get+DesignPatterns.Interpreter.Numero.Valor.get8
+	Valor.set+DesignPatterns.Interpreter.Numero.Valor.setï
+%DesignPatterns.Command.FinalizaPedidoobjectDesignPatterns.Command.ICommandÑ
+-FinalizaPedido(DesignPatterns.Command.Pedido)SDesignPatterns.Command.FinalizaPedido.FinalizaPedido(DesignPatterns.Command.Pedido)<
+	Executa()/DesignPatterns.Command.FinalizaPedido.Executa()!
+DesignPatterns.Command.ICommandπ
+DesignPatterns.Interpreter.Somaobject%DesignPatterns.Interpreter.IExpressao»
+RSoma(DesignPatterns.Interpreter.IExpressao, DesignPatterns.Interpreter.IExpressao)rDesignPatterns.Interpreter.Soma.Soma(DesignPatterns.Interpreter.IExpressao, DesignPatterns.Interpreter.IExpressao)4
+Avalia()(DesignPatterns.Interpreter.Soma.Avalia()r
+'Aceita(DesignPatterns.Visitor.IVisitor)GDesignPatterns.Interpreter.Soma.Aceita(DesignPatterns.Visitor.IVisitor)<
+Esquerda.get,DesignPatterns.Interpreter.Soma.Esquerda.get<
+Esquerda.set,DesignPatterns.Interpreter.Soma.Esquerda.set:
+Direita.get+DesignPatterns.Interpreter.Soma.Direita.get:
+Direita.set+DesignPatterns.Interpreter.Soma.Direita.setÄ
+!DesignPatterns.Command.PagaPedidoobjectDesignPatterns.Command.ICommandx
+)PagaPedido(DesignPatterns.Command.Pedido)KDesignPatterns.Command.PagaPedido.PagaPedido(DesignPatterns.Command.Pedido)8
+	Executa()+DesignPatterns.Command.PagaPedido.Executa()Î
+$DesignPatterns.Interpreter.Subtracaoobject%DesignPatterns.Interpreter.IExpressao◊
+WSubtracao(DesignPatterns.Interpreter.IExpressao, DesignPatterns.Interpreter.IExpressao)|DesignPatterns.Interpreter.Subtracao.Subtracao(DesignPatterns.Interpreter.IExpressao, DesignPatterns.Interpreter.IExpressao)9
+Avalia()-DesignPatterns.Interpreter.Subtracao.Avalia()w
+'Aceita(DesignPatterns.Visitor.IVisitor)LDesignPatterns.Interpreter.Subtracao.Aceita(DesignPatterns.Visitor.IVisitor)A
+Esquerda.get1DesignPatterns.Interpreter.Subtracao.Esquerda.getA
+Esquerda.set1DesignPatterns.Interpreter.Subtracao.Esquerda.set?
+Direita.get0DesignPatterns.Interpreter.Subtracao.Direita.get?
+Direita.set0DesignPatterns.Interpreter.Subtracao.Direita.setz
+DesignPatterns.Command.StatusSystem.EnumSystem.ValueTypeobject2
+Status()&DesignPatterns.Command.Status.Status()√
+DesignPatterns.Command.PedidoobjectN
+Pedido(string, double)4DesignPatterns.Command.Pedido.Pedido(string, double).
+Paga()$DesignPatterns.Command.Pedido.Paga()6
+
+Finaliza()(DesignPatterns.Command.Pedido.Finaliza()8
+Cliente.get)DesignPatterns.Command.Pedido.Cliente.get8
+Cliente.set)DesignPatterns.Command.Pedido.Cliente.set4
+	Valor.get'DesignPatterns.Command.Pedido.Valor.get4
+	Valor.set'DesignPatterns.Command.Pedido.Valor.setH
+DataFinalizacao.get1DesignPatterns.Command.Pedido.DataFinalizacao.getH
+DataFinalizacao.set1DesignPatterns.Command.Pedido.DataFinalizacao.set6
+
+Status.get(DesignPatterns.Command.Pedido.Status.get6
+
+Status.set(DesignPatterns.Command.Pedido.Status.setÂ
+(DesignPatterns.Decorator.ImpostoAbstractobjectü
+9ImpostoAbstract(DesignPatterns.Decorator.ImpostoAbstract)bDesignPatterns.Decorator.ImpostoAbstract.ImpostoAbstract(DesignPatterns.Decorator.ImpostoAbstract)O
+ImpostoAbstract():DesignPatterns.Decorator.ImpostoAbstract.ImpostoAbstract()ü
+9CalculoDoOutroImposto(DesignPatterns.Estrategy.Orcamento)bDesignPatterns.Decorator.ImpostoAbstract.CalculoDoOutroImposto(DesignPatterns.Estrategy.Orcamento)M
+OutroImposto.get9DesignPatterns.Decorator.ImpostoAbstract.OutroImposto.getM
+OutroImposto.set9DesignPatterns.Decorator.ImpostoAbstract.OutroImposto.set¥
+$DesignPatterns.Decorator.ImpostoICMS(DesignPatterns.Decorator.ImpostoAbstractobjectì
+5ImpostoICMS(DesignPatterns.Decorator.ImpostoAbstract)ZDesignPatterns.Decorator.ImpostoICMS.ImpostoICMS(DesignPatterns.Decorator.ImpostoAbstract)C
+ImpostoICMS()2DesignPatterns.Decorator.ImpostoICMS.ImpostoICMS()
++Calcula(DesignPatterns.Estrategy.Orcamento)PDesignPatterns.Decorator.ImpostoICMS.Calcula(DesignPatterns.Estrategy.Orcamento)¨
+#DesignPatterns.Decorator.ImpostoISS(DesignPatterns.Decorator.ImpostoAbstractobjectê
+4ImpostoISS(DesignPatterns.Decorator.ImpostoAbstract)XDesignPatterns.Decorator.ImpostoISS.ImpostoISS(DesignPatterns.Decorator.ImpostoAbstract)@
+ImpostoISS()0DesignPatterns.Decorator.ImpostoISS.ImpostoISS()~
++Calcula(DesignPatterns.Estrategy.Orcamento)ODesignPatterns.Decorator.ImpostoISS.Calcula(DesignPatterns.Estrategy.Orcamento)î
+0DesignPatterns.Decorator.DesignPatternsDecoratorobjectDesignPatterns.IDesignPatternsO
+MainExemplo()>DesignPatterns.Decorator.DesignPatternsDecorator.MainExemplo()g
+DesignPatternsDecorator()JDesignPatterns.Decorator.DesignPatternsDecorator.DesignPatternsDecorator()

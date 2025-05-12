@@ -1,0 +1,7 @@
+organization=leonardoarruda9
+projectKey=leonardoarruda9_DesignPatterns
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.63227
+dashboardUrl=https://sonarcloud.io/dashboard?id=leonardoarruda9_DesignPatterns
+ceTaskId=AZbF0_3Dhsv09Bf8TdyG
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZbF0_3Dhsv09Bf8TdyG
